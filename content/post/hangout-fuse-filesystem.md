@@ -2,7 +2,7 @@
 title = "Filesystem com FUSE, Hangout do grupo de estudos de Go 2018-07-12"
 description = "Criando seu próprio sistema de arquivos com Go usando FUSE com Golang e o pacote Basil."
 tags = ["Golang"]
-date = "2018-07-05T06:45:14Z"
+date = "2018-07-12T06:45:14Z"
 +++
 
 {{< youtube viA8cVClCNY >}}
