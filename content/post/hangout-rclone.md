@@ -2,7 +2,7 @@
 title = "rclone o rsync para cloud storage"
 description = "rclone um ótimo utilitário para copiar arquivos na nuvem"
 tags = ["Golang"]
-date = "2018-08-29T06:45:14Z"
+date = "2018-08-09T06:45:14Z"
 +++
 
 {{< youtube ApvAKKCUDlY >}}
