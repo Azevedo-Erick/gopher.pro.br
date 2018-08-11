@@ -27,7 +27,7 @@ https://setemasters.imasters.com.br/edicoes/go/
 
 
 Pagina no Facebook do grupo de estudos:
-https://www.facebook.com/gophers.br/
+https://www.facebook.com/gopher.pro.br/
 
 Go Hands On:
 https://github.com/go-br/estudos

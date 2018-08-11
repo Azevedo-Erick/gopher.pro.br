@@ -29,7 +29,6 @@ https://github.com/wwg-poa/tutorial
 https://www.youtube.com/watch?v=5C1joxyjfk8
 https://github.com/AsynkronIT/protoactor-go
 https://github.com/lizrice/strace-from-scratch
-https://github.com/marioidival/go
 
 Go Hands On:
 https://github.com/go-br/estudos

@@ -24,10 +24,6 @@ https://github.com/nuveo/tcp-port-wait
 Funções ZZ
 http://funcoeszz.net/list.html
 
-The Dev Conf
-http://cfp-poa.thedevconf.com.br
-
-
 Outros links mencionados
 
 Go Hands On:

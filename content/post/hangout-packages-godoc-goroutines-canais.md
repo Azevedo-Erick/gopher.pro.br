@@ -23,7 +23,7 @@ Links mencionados, alguns foram mencionados fora da gravação:
 https://github.com/avelino/awesome-go#database
 https://github.com/chapzin/golang-web-dev
 https://github.com/chapzin/parse-efd-fiscal/blob/master/SpedExec/SpedExec.go
-https://github.com/chapzin/parse-efd-fiscal/tree/master/model
+https://github.com/chapzin/parse-efd-fiscal/
 https://github.com/crgimenes/lpk
 https://novatec.com.br/livros/go-em-acao/
 https://novatec.com.br/livros/linguagem-de-programacao-go/

@@ -12,7 +12,6 @@ Um papo bem legal sobre a linguagem que a gente adora.
 
 Links mencionados, alguns foram mencionados fora da gravação:
 
-http://github.com/crgimenes/news
 https://en.wikipedia.org/wiki/Naive_Bayes_spam_filtering
 https://github.com/lytics/multibayes
 https://blog.golang.org/generate

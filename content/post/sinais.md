@@ -31,7 +31,7 @@ Claro que você precisa tratar sinais em uma goroutine, dessa forma seu programa
 
 ### Exemplo completo
 
-Agora vamos ver como tudo isso trabalha junto em um [programa completo](https://github.com/crgimenes/Go-Hands-On/blob/master/signals.go).
+Agora vamos ver como tudo isso trabalha junto em um [programa completo](https://github.com/go-br/estudos/blob/master/signals/signals.go).
 
 ```go
 package main
