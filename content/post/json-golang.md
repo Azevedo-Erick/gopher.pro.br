@@ -9,7 +9,7 @@ tags = ["Golang", "Desenvolvimento"]
 
 ## Convertendo e validando JSON
 
-É sempre bom saver se o JSON é valido antes, isso poupa tempo de debug procurando um problema que não esta no seu código, para isso uma boa ferramenta on-line é o [JSONLint](https://jsonlint.com)
+É sempre bom saber se o JSON é valido antes, isso poupa tempo de debug procurando um problema que não esta no seu código, para isso uma boa ferramenta on-line é o [JSONLint](https://jsonlint.com)
 
 Outra ferramenta on-line muito boa é o [JSON-to-Go](https://mholt.github.io/json-to-go/) para converter arquivos JSON em struct Go, ele não vai converter partes repetitivas em sub-structs mas ajuda muito, principalmente quando a estrutura é muito grande e complexa.
 
