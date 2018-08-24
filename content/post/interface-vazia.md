@@ -160,6 +160,27 @@ func main() {
 }
 ```
 
+Mais uma forma de como validar se a interface vazia tem o tipo que você quer é fazendo como no exemplo abaixo.
+
+```go
+package main
+
+import "fmt"
+
+func main() {
+	var value interface{}
+	value = 1
+
+	str, ok := value.(string)
+	if !ok {
+		fmt.Println("Value não é string")
+	}
+	fmt.Println(str)
+}
+```
+
+Aqui usamos `str, ok := value.(string)` de forma que se `value` for do tipo `string` ok será true e str contera o valor propriamente dito já como string, é uma forma simples de testar o tipo sem escrever o `switch case`.
+
 Espero ter esclarecido mais um pouco sobre interface vazia, seus usos e porque pode ser arriscado.  
 
 ## Links úteis
@@ -170,6 +191,7 @@ Espero ter esclarecido mais um pouco sobre interface vazia, seus usos e porque p
 	3. https://play.golang.org/p/ucMSAgbGIEO
 	4. https://play.golang.org/p/-eLaKhS-ojh
 	5. https://play.golang.org/p/vrelMrzXnN-
+	6. https://play.golang.org/p/cA-JutjQWWf
 - [Repositório do nosso grupo](https://github.com/go-br/estudos)
 - [E você encontra mais exemplos aqui](https://github.com/go-br)
 - [Pagina do grupo de estudos](https://gopher.pro.br)
