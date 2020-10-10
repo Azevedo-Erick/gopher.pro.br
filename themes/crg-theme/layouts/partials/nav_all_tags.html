@@ -1,0 +1,11 @@
+<nav>
+{{ $c := "" }}
+{{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+{{ if gt .Count 4 }}
+{{ with $.Site.GetPage (printf "/tags/%s" $name) }}{{ (printf "%s" $c) }}
+<a href="{{ .Permalink }}">#{{ $name }}</a>
+{{ $c = "| " }}
+{{ end }}
+{{ end }}
+{{ end }}
+</nav>

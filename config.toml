@@ -1,58 +1,67 @@
-baseurl = "https://gopher.pro.br"
+baseurl = "https://gopher.pro.br/"
 languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
-title = "Golang grupo de estudos"
-copyright = ""
-# Shown in the side menu
-canonifyurls = true
+title = "Grupo de Estudos de Golang"
+copyright = "© 2020. Grupo de Estudos de Golang. All rights reserved."
+author = "Grupo de Estudos de Golang"
 paginate = 20
-theme = "blackburn"
+theme = "crg-theme"
 enableRobotsTXT = true
-googleAnalytics = "UA-119865485-1"
+description = "Artigos e exemplos de códiog do Grupo de Estudos de Golang"
+canonifyurls = true
+disableHugoGeneratorInject = true
 
-[params]
-	locale = "pt-BR"
-	highlight="default"
-	# Shown in the home page
-	subtitle = "Exemplos, artigos e muito código Go"
-	brand = "Gopher Pro"
-	# CSS name for highlight.js
-	highlightjs = "default"
-	dateFormat = "2006-01-02"
-	description = "Grupo de estudos de Golang, exemplos, vídeos, aulas, artigos e muito código. Uma comunidade aberta inclusiva e focada na linguagem de programação Go"
-	googleAnalytics = "UA-80761879-1"
+[taxonomies]
+  category = "categorias"
+  tag = "tags"
 
 [indexes]
-	category = "categorias"
-	tag = "tags"
+  category = "categorias"
+  tag = "tags"
+  topic = "topicos"
+
+[params]
+  ISO8601 = "2006-01-02T15:04:05JST"
+  highlightjs = "androidstudio"
+  highlightjs_extra_languages = ["go","x86asm"]
+  googleAnalytics = "UA-80761879-1"
+	locale = "pt-br"
+	# Shown in the home page
+	subtitle = "programação, eletrônica, golang, UNIX e muito mais papo nerd"
+	brand = "Grupode Estudos de Golang"
+	dateFormat = "2006-01-02"
+    description = "Artigos e posts sobre programação do Grupo de Estudos de Golang"
+  [params.publisher]
+    name = "Grupo de Estudos de Golang"
+
+    [params.publisher.logo]
+      url = "/logo.png"
+      width = 600
+      height = 60
+    
+    [params.logo]
+      url = "/logo.png"
+      width = 600
+      height = 60
+    
+    [params.image]
+      url = "/cover.png"
+      width = 800
+      height = 600
+
 
 [menu]
-  # Shown in the side menu.
   [[menu.main]]
     name = "Home"
-    pre = "<i class='fa fa-home fa-fw'></i>"
-    weight = 0
+    weight = 1
     identifier = "home"
     url = "/"
-  [[menu.main]]
-    name = "Posts"
-    pre = "<i class='fa fa-list fa-fw'></i>"
-    weight = 1
-    identifier = "post"
-    url = "/post/"
-  [[menu.main]]
-    name = "Sobre"
-    pre = "<i class='fa fa-user fa-fw'></i>"
-    weight = 2
-    identifier = "about"
-    url = "/about/"
 
-[social]
-  # Link your social networking accouns to the side menu
-  # by entering your username or ID.
-  #twitter = ""
-  #facebook = ""
-  #instagram = ""
-  #github = ""
-  #stackoverflow = "*"
-  #linkedin = ""
+[build]
+  publish = "public"
+  command = "hugo --minify"
+
+[outputs]
+  home = ["HTML", "RSS"]
+  page = ["HTML", "RSS"]
+

@@ -1,0 +1,166 @@
+:root {
+  --color-bg: #333;
+  --color-fg: #fff;
+}
+
+html { 
+  font-size:18px; 
+}
+
+* {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6rem;
+  max-width: 100%;
+  overflow-x:auto;
+  color: var(--color-fg);
+}
+
+div.container {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+body {
+  color: var(--color-fg);
+  background-color: var(--color-bg);
+  padding: 10px;
+  min-width: 355px;
+}
+
+img {
+   max-width: 100%;
+   height: auto;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.rigth {
+  float: right;
+}
+
+pre,
+code {
+  color: #000;
+  font-family: Menlo, monospace;
+  background-color: lightgrey;
+}
+pre {
+  color: #000;
+  background-color: lightgrey;
+  border-radius: 10px;
+  border: 2px solid #000;
+  padding: 10px;
+  line-height: 1.4;
+  overflow-x: auto;
+}
+
+a {
+  color: #26ff26;
+  text-decoration: none;
+}
+
+.prev-next-post {
+  margin-top: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+
+.prev-next-post .prev {
+  float: left;
+  text-align: left;
+  overflow: hidden;
+}
+
+.prev-next-post .next {
+  float: right;
+  text-align: right;
+  overflow: hidden;
+}
+
+i {
+  display: inline-block;
+  margin-right: 0.2rem;
+}
+
+img[src$='#center']
+{
+    display: block;
+    margin: 0.7rem auto;
+}
+
+img[src$='#floatleft']
+{
+    float:left;
+    margin: 0.7rem;
+}
+
+img[src$='#floatright']
+{
+    float:right;
+    margin: 0.7rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 1.25rem 0 1.25rem;
+  padding: 0;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+}
+h1 {
+  font-size: 1.7rem;
+  line-height: 1.7rem;
+  padding: 0.5rem 0 0.5rem 0;  
+}
+h2 {
+  border-radius: 10px;
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  color: var(--color-bg);
+  background-color: var(--color-fg);
+  line-height: 1.25rem;
+  font-weight: normal;
+  overflow-wrap: break-word;
+}
+h3 {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  overflow-wrap: break-word;
+  padding: 0.5rem 0 0.5rem 0;  
+}
+h3,
+h4 {
+  margin: 1.25rem 0.3125rem;
+}
+h4 {
+  font-size: 1rem;
+}
+
+@media print {
+  pre {
+    background: #fff;
+    border: 0.0625rem solid #bbb;
+    white-space: pre-wrap;
+    page-break-inside: avoid;
+  }
+}
+
+hr {
+    border: none;
+    background-color: #26ff26;
+    color: #26ff26;
+    height: 1px;
+}
+

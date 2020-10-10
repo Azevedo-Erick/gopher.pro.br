@@ -1,9 +1,9 @@
 [build]
-publish = "public"
-command = "hugo --gc --minify"
+  command = "make build"
+  functions = "functions"
+  publish = "public"
 
 [context.production.environment]
-HUGO_VERSION = "0.58.1"
 HUGO_ENV = "production"
 HUGO_ENABLEGITINFO = "true"
 
@@ -18,3 +18,39 @@ command = "hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"
+
+[[headers]]
+ for = "/*"
+  [headers.values]
+   Access-Control-Allow-Origin = "*"
+   X-Frame-Options = "DENY"
+   X-XSS-Protection = "1; mode=block"
+   Referrer-Policy = "no-referrer"
+   X-Content-Type-Options = "nosniff"
+   Link = "</crg.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/favicon.ico"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[redirects]]
+  from = "/api/uuid"
+  to = "/.netlify/functions/uuid"
+  status = 200
+  force = true
+
+
+[[redirects]]
+  from = "/api/clipboard"
+  to = "/.netlify/functions/clipboard"
+  status = 200
+  force = true
+
+
+[[redirects]]
+  from = "/api/s1"
+  to = "/.netlify/functions/s1"
+  status = 200
+  force = true
+
