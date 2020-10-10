@@ -1,5 +1,5 @@
 :root {
-  --color-bg: #fff;
+  --color-bg: #bbb;
   --color-fg: #000;
 }
 
@@ -54,7 +54,6 @@ code {
 pre {
   color: #000;
   background-color: lightgrey;
-  border-radius: 10px;
   border: 2px solid #000;
   padding: 10px;
   line-height: 1.4;
@@ -124,7 +123,6 @@ h1 {
   padding: 0.5rem 0 0.5rem 0;  
 }
 h2 {
-  border-radius: 10px;
   font-size: 1.25rem;
   padding: 0.5rem;
   color: var(--color-bg);
@@ -158,8 +156,8 @@ h4 {
 
 hr {
     border: none;
-    background-color: #26ff26;
-    color: #26ff26;
+    background-color: #00b;
+    color: #00b;
     height: 1px;
 }
 
