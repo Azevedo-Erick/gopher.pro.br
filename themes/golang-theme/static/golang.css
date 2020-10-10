@@ -1,10 +1,10 @@
 :root {
-  --color-bg: #333;
-  --color-fg: #fff;
+  --color-bg: #fff;
+  --color-fg: #000;
 }
 
 html { 
-  font-size:18px; 
+  font-size:1.4em; 
 }
 
 * {
@@ -16,7 +16,6 @@ html {
 }
 
 div.container {
-  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -28,7 +27,7 @@ div.container {
 body {
   color: var(--color-fg);
   background-color: var(--color-bg);
-  padding: 10px;
+  padding: 2em;
   min-width: 355px;
 }
 
@@ -63,7 +62,7 @@ pre {
 }
 
 a {
-  color: #26ff26;
+  color: #00f;
   text-decoration: none;
 }
 

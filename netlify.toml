@@ -27,7 +27,7 @@ HUGO_ENABLEGITINFO = "true"
    X-XSS-Protection = "1; mode=block"
    Referrer-Policy = "no-referrer"
    X-Content-Type-Options = "nosniff"
-   Link = "</crg.css>; rel=preload; as=style"
+   Link = "</golang.css>; rel=preload; as=style"
 
 [[headers]]
   for = "/favicon.ico"
