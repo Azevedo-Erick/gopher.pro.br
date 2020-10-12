@@ -49,14 +49,14 @@ code {
 pre {
   color: #000;
   background-color: lightgrey;
-  border: 2px solid #FF5A09;
+  border: 2px solid #6666ff;
   padding: 1rem;
   line-height: 1.4;
   overflow-x: auto;
 }
 
 a {
-  color: #FF5A09;
+  color: #9999ff;
   text-decoration: none;
 }
 
@@ -64,8 +64,8 @@ a {
   margin-top: 2rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
-  border-top: 1px solid #FF5A09;
-  border-bottom: 1px solid #FF5A09;
+  border-top: 1px solid #6666ff;
+  border-bottom: 1px solid #6666ff;
 }
 
 .prev-next-post .prev {
@@ -122,7 +122,7 @@ h2 {
   font-size: 1.25rem;
   padding: 0.5rem;
   color: #fff;
-  background-color: #FF5A09;
+  background-color: #6666ff;
   line-height: 1.25rem;
   font-weight: normal;
   overflow-wrap: break-word;
@@ -151,8 +151,8 @@ h4 {
 
 hr {
     border: none;
-    background-color: #FF5A09;
-    color: #FF5A09;
+    background-color: #6666ff;
+    color: #6666ff;
     height: 2px;
 }
 
