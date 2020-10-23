@@ -54,5 +54,5 @@ Teste esses exemplos no [Go Playground](https://play.golang.org/p/YmmfIIFO_By)
 
 ## Arquivos desse post:
 
-- [array/README.md](https://github.com/go-br/estudos/blob/master/array/README.md)
-- [array/array.go](https://github.com/go-br/estudos/blob/master/array/array.go)
+- [array/README.md](https://github.com/go-br/estudos/blob/master/exemplos/array/README.md)
+- [array/array.go](https://github.com/go-br/estudos/blob/master/exemplos/array/array.go)
