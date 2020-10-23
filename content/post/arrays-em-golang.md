@@ -52,7 +52,7 @@ a5 := [...]int{13, 14, 15}
 Teste esses exemplos no [Go Playground](https://play.golang.org/p/YmmfIIFO_By)
 
 
-## Arquivos desse post:
+### Arquivos desse post
 
 - [array/README.md](https://github.com/go-br/estudos/blob/master/exemplos/array/README.md)
 - [array/array.go](https://github.com/go-br/estudos/blob/master/exemplos/array/array.go)
