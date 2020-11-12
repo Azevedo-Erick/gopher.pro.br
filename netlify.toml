@@ -54,3 +54,10 @@ HUGO_ENABLEGITINFO = "true"
   status = 200
   force = true
 
+[[redirects]]
+  from = "/discord"
+  to = "https://discord.gg/WEzTCns"
+  status = 200
+  force = true
+
+
