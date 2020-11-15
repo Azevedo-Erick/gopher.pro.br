@@ -67,3 +67,9 @@ HUGO_ENABLEGITINFO = "true"
   status = 200
   force = true
 
+[[redirects]]
+  from = "/youtube"
+  to = "https://youtube.com/grupoDeEstudosDeGolang"
+  status = 200
+  force = true
+
