@@ -13,7 +13,7 @@ Muitos exemplos de Go no GitHub em [https://github.com/go-br/estudos/](https://g
 
 ## Encontros semanais
 
-Toda quinta-feira as 22h00 nos encontramos on-line via Google Meet, os encontros são marcados no nosso [grupo do Telegram em https://t.me/grupoDeEstudosGolang](https://t.me/grupoDeEstudosGolang).
+Toda quinta-feira as 22h00 fazemos encontros  on-line, os encontros são marcados no nosso [grupo do Telegram em https://gopher.pro.br/telegram](https://gopher.pro.br/telegram) e em nosso canal no [Discord em  https://gopher.pro.br/discord]( https://gopher.pro.br/discord).
 
 ---
 
