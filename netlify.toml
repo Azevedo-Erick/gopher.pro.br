@@ -40,14 +40,6 @@ HUGO_ENABLEGITINFO = "true"
   status = 200
   force = true
 
-
-[[redirects]]
-  from = "/api/clipboard"
-  to = "/.netlify/functions/clipboard"
-  status = 200
-  force = true
-
-
 [[redirects]]
   from = "/api/s1"
   to = "/.netlify/functions/s1"
