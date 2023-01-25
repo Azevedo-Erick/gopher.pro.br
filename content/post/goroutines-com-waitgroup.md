@@ -2,7 +2,7 @@
 title = "Goroutines com WaitGroup"
 date = "2017-15-09T19:46:45-03:00"
 description = "Quando há  a necessidade de sincronia entre os jobs, WaitGroups podem ser utilizados."
-tags = ["golang"]
+tags = ["golang","jobs"]
 +++
 
 # Goroutines com WaitGroup
